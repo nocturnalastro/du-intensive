@@ -4,8 +4,8 @@ metadata:
   annotations:
     prometheus.io/scrape: "true"
   name: du-ptp-event-consumer-service
-  labels:
-    app: du-ptp-event-consumer
+    labels:
+      app: du-ptp-event-consumer
 spec:
   ports:
     - name: sub-port
